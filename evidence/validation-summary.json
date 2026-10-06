@@ -1,0 +1,65 @@
+{
+  "project": "NemoClaw Biohacking",
+  "repository_scope": "Public documentation and synthetic-demo showcase; implementation remains private.",
+  "validation_date": "2026-10-06",
+  "automated_tests": {
+    "scope": "Private reference implementation; local Python test suite.",
+    "command": "python -m pytest -q",
+    "exit_code": 0,
+    "passed": 52,
+    "failed": 0,
+    "warnings": 2,
+    "warning_topics": [
+      "Deprecated Starlette/httpx test-client usage",
+      "Deprecated AnyIO compatibility alias"
+    ],
+    "environment": {
+      "os": "Linux",
+      "python": "3.12.14",
+      "pytest": "9.1.1",
+      "pydantic": "2.13.5",
+      "mcp": "1.30.0",
+      "httpx": "0.28.1",
+      "starlette": "1.6.0",
+      "anyio": "4.15.1"
+    },
+    "public_test_sources": false,
+    "public_ci_run": false,
+    "independent_audit": false
+  },
+  "browser_capture": {
+    "scope": "Existing frontend and local broker with bundled synthetic demo data.",
+    "browser": "Chromium 153.0.8010.0",
+    "screenshots": 5,
+    "javascript_errors_observed": 0,
+    "metric_cards": 4,
+    "unknown_values_displayed": 2,
+    "trend_points": 32,
+    "specialist_proposals": 6,
+    "tasks": 6,
+    "preview_tasks": 4,
+    "deferred_tasks": 2,
+    "desktop_width_css_px": 1280,
+    "mobile_width_css_px": 430,
+    "device_scale_factor": 2,
+    "mobile_method": "Browser viewport emulation; no physical phone test.",
+    "data": "Synthetic observations and fabricated demo proposals.",
+    "calendar_mode": "Local preview",
+    "llm_calls": 0,
+    "external_calendar_writes": 0,
+    "checkin_submitted": false,
+    "presentation_annotation": "Synthetic-demo labels added during capture; project files unchanged."
+  },
+  "pending_acceptance": [
+    "NemoClaw/OpenClaw live specialist orchestration",
+    "Effective OpenShell filesystem, network and credential restrictions",
+    "Deployed broker isolation and private transport",
+    "Real wearable export semantics and repeated ingestion",
+    "Google OAuth and live dedicated-calendar behavior",
+    "Real-model quality and adversarial prompt evaluation",
+    "Operational restart, restore and notification checks",
+    "Physical-device browser checks",
+    "Runtime performance and inference costs"
+  ],
+  "scope_limit": "These observations do not establish live deployment readiness, clinical validity, or a guarantee against prompt injection."
+}
